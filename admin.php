@@ -8,7 +8,7 @@ header("Pragma: no-cache");
 header("Expires: 0");
 
 // --- CONFIGURATION ---
-$ADMIN_PASSWORD = "D@nny1307"; 
+$ADMIN_PASSWORD = ""; 
 
 // 1. HANDLE LOGOUT (Fully Destroy Session)
 if (isset($_GET['logout'])) {
@@ -322,4 +322,5 @@ if (isset($_GET['delete']) && $is_admin) {
 <?php endif; ?>
 
 </body>
+
 </html>
