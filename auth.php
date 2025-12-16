@@ -50,7 +50,7 @@ if ($passcode === $MY_BIRTHDAY) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
-        $mail->setFrom($SMTP_EMAIL, 'My Journey Archive');
+        $mail->setFrom($SMTP_EMAIL, 'The Archive');
         $mail->addAddress($visitor_email);
 
         $mail->isHTML(true);
@@ -71,3 +71,4 @@ if ($passcode === $MY_BIRTHDAY) {
 }
 
 ?>
+
